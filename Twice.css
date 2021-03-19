@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background-image: url("images/pinkspark.jpg");
+}
+
+.box {
+    color:white;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    /* justify-content: flex-start;
+    text-align: center; */
+    padding:0px;
+}
+
+a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+a:hover{
+    color:rgb(245, 132, 132)
+}
+
+
+.box:hover { 
+    color:rgb(245, 132, 132);
+    background:#ffffff;
+
+}
+
+
+.header { 
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex; 
+    min-height: 50px; 
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+    background-color:rgb(245, 132, 132,0.8);;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row; 
+    flex: 1
+   }
+
+.dropdown .dropbtn {
+    display:flex;
+    color:white;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Redressed', cursive;
+    margin: 0;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown-content {
+    display: none;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(245, 132, 132,0.8);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: inherit;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.mainC { 
+    display: flex; 
+    justify-content: space-evenly ;
+    text-align: center;
+    flex-direction: row;
+   }
+
+.mainL{
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 25px;
+    width: 40%;
+    background-color: rgb(245, 132, 132,0.7);
+    padding: 10px 10px 10px 10px;
+    min-height: 500px;
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;  
+}
+
+.mainR{
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 25px;
+    width: 40%;
+    background-color: rgb(245, 132, 132,0.7);
+    padding: 10px 10px 10px 10px;
+    min-height: 500px;
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;  
+}
+
+.mainV{
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 25px;
+    width: 45%;
+    background-color: rgb(245, 132, 132,0.7);
+    padding: 10px 10px 10px 10px;
+    min-height: 500px;
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;  
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Caveat', cursive;}
+
+.Theader{
+    font-style: italic;
+}
+
+.song{
+    font-size: 19px;
+}
+
+.footer { 
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex; 
+    min-height: 50px;
+    margin-top: 2%; 
+    font-family: 'Redressed', cursive;
+    font-size: 15px;
+    background-color:rgb(245, 132, 132,0.8);;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans JP', sans-serif;
+    justify-content: space-between;
+    text-align:justify;
+    flex-direction: row; 
+    flex: 1
+   }
+
+h2{
+    margin-top:0px;
+    padding-top:0px
+}
+
+.Tlink:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* font-size: 20px; */
+    font-family: 'Caveat', cursive;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.Cheerup {background-color:rgba(123, 212, 138, 0.8)}
+.DTNA {background-color:rgba(206, 179, 128, 0.8)}
+.Fancy {background-color:rgba(14, 8, 8, 0.8) ;}
+.Heartshaker {background-color:rgba(76, 86, 238, 0.8)}
+.ICSM {background-color:rgba(226, 151, 12, 0.8)}
+.OOHAHH{background-color:rgba(202, 5, 5, 0.8)}
+.MAM {background-color:rgba(9, 61, 13, 0.8)}
+.Merry{background-color:rgba(167, 167, 167, 0.8)}
+.Signal{background-color:rgba(10, 5, 54, 0.8)}
+.Special {background-color:rgba(255, 255, 255, 0.8); 
+            color:rgba(211, 156, 4, 0.8);}
+.TT {background-color:rgba(105, 179, 240, 0.8)}
+.WIL{background-color:rgba(79, 70, 131, 0.8)}
+.YOY {background-color:rgba(150, 97, 129, 0.8)}
